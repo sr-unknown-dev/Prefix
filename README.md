@@ -1,9 +1,11 @@
 # Prefix Plugin
 
-> [!INFO]
+> [!NOTE]
 > Para modificar los prefix sigue esta ruta "src\unknown\prefix\manager\PrefixManager"
-> Aqui podras editar los prefix que hay, tambien si lo gustas podeas agregar mas
+> Aqui podras editar los prefix que hay, tambien si lo gustas podras agregar mas
 
+> [!IMPORTANT]
+> Hola
 ## Description
 The Prefix Plugin allows players to set custom prefixes in the game. Players can choose from a predefined list of tags representing countries, PvP ranks, player states, and funny memes.
 
@@ -26,20 +28,20 @@ The Prefix Plugin allows players to set custom prefixes in the game. Players can
 3. Restart the server.
 
 ## Usage
-1. Use the `/setprefix <prefix>` command to set your prefix. 
+1. Use the `/setprefix <prefix>` command to set your prefix.
 2. Use the `/prefix` command to open menu prefixs
-The prefix will be displayed in your name and chat messages.
+   The prefix will be displayed in your name and chat messages.
 
 ## Configuration
 The predefined tags can be found and modified in the `PrefixManager` class. The tags are categorized into countries, PvP ranks, player states, and memes.
 
 ## Example Tags
 - Countries: `MEX`, `USA`, `BRA`, `COL`, `ARG`, `PER`, `ESP`
-- 
+-
 - PvP Ranks: `CHEATER`, `MONEY`, `KILLER`, `GOD`, `HUNTER`, `NOOB`, `TRYHARD`, `DESTROYER`, `SNIPER`, `BLOOD`, `COMBO`, `ASSASSIN`, `GHOST`
-- 
+-
 - Player States: `RICH`, `POOR`, `WARRIOR`, `KING`, `QUEEN`, `RANDOM`
-- 
+-
 - Memes: `LAGGER`, `BOT`, `EZ`, `SIMP`
 
 ## License
