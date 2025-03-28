@@ -1,6 +1,6 @@
 # Prefix Plugin
 
-> [!INFO]
+> [!NOTE]
 > Para modificar los prefix sigue esta ruta "src\unknown\prefix\manager\PrefixManager"
 > Aqui podras editar los prefix que hay, tambien si lo gustas podeas agregar mas
 
