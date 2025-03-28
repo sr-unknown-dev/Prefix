@@ -1,0 +1,14 @@
+name: prefix
+author: Sr_Unknown
+version: 1.0.0
+main: unknown\prefix\Loader
+api: 5.0.0
+prefix: Prefix
+
+permissions:
+  prefix.admin:
+    default: op
+    description: Allows the player to use the /prefix command
+  prefix.user:
+    default: true
+    description: Allows the player to use the prefix
