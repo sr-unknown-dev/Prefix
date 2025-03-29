@@ -35,8 +35,6 @@ final class SessionChatFormatter implements ChatFormatter
             // Ahora obtenemos el formato del chat del RankSystem
             $factionT = $player->getSession()->getFaction();
             $rankFormat = $this->session->getChatFormat();
-            
-            // Construir el formato completo con el prefijo al principio
             if ($factionT !== null) {
                 $faction = HCFLoader::getInstance()->getFactionManager()->getFaction($factionT);
                 $name = $faction->getName();
