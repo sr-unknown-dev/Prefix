@@ -7,6 +7,7 @@ namespace unknown\prefix;
 use muqsit\invmenu\InvMenuHandler;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
+use unknown\prefix\command\PrefixsCommand;
 use unknown\prefix\manager\PrefixManager;
 use unknown\prefix\command\SetPrefixCommand;
 use unknown\prefix\command\RemovePrefixCommand;
@@ -32,8 +33,9 @@ class Loader extends PluginBase
             InvMenuHandler::register($this);
         }
         $this->getServer()->getPluginManager()->registerEvents(new Events(), $this);
-        $this->getServer()->getCommandMap()->registerAll("prefix", [
-            new PrefixCommand()
+        $this->getServer()->getCommandMap()->registerAll("prefixsystem", [
+            new PrefixCommand(),
+            new PrefixsCommand()
         ]);
     }
 

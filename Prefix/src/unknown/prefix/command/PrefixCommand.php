@@ -16,7 +16,7 @@ class PrefixCommand extends BaseCommand
 {
     public function __construct()
     {
-        parent::__construct(Loader::getInstance(), "prefix", "Open the prefix menu");
+        parent::__construct(Loader::getInstance(), "prefix", "Prefix Commands");
     }
 
     protected function prepare(): void
@@ -32,8 +32,10 @@ class PrefixCommand extends BaseCommand
             $sender->sendMessage("This command can only be used in-game.");
         }
 
-        if ($sender instanceof Player)
-        PrefixMenu::open($sender);
+        if ($sender instanceof Player){
+            $sender->sendMessage("Prefix Command");
+            $sender->sendMessage("/prefix setprefix <prefix> <player>\n/prefix removeprefix <player>\n/prefix list");
+        }
     }
 
     public function getPermission(): ?string

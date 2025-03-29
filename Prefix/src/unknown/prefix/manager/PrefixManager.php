@@ -76,10 +76,6 @@ class PrefixManager
         if (isset($this->tags[$tagName])) {
             $this->prefixes[$player->getName()] = $tagName;
             $this->save();
-            
-            // Actualizar el displayName del jugador para mostrar el prefijo inmediatamente
-            $format = $this->tags[$tagName];
-            $player->setDisplayName(TextFormat::colorize($format) . " " . $player->getName());
         }
     }
 
@@ -101,18 +97,22 @@ class PrefixManager
         return null;
     }
 
-    public function getTagFormat()
+    public function getTagFormat(string $tagName)
     {
-        return $this->tags;
+        return $this->tags[$tagName] ?? null;
+    }
+
+    public function getTagName(string $playerName): ?string
+    {
+        return $this->prefixes[$playerName] ?? null;
     }
 
     public function getTags(): array
     {
-        $tags = [];
         foreach ($this->tags as $tagName => $tagFormat) {
-            $tags[] = $tagName . ' format: ' . $tagFormat;
+            return $tagName . ' format: ' . $tagFormat;
         }
-        return $tags;
+        return "No exist prefixs";
     }
 
     public function save(): void
