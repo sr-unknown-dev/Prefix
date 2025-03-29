@@ -3,6 +3,8 @@
 > [!NOTE]
 > Para modificar los prefix sigue esta ruta "src\unknown\prefix\manager\PrefixManager"
 > Aqui podras editar los prefix que hay, tambien si lo gustas podras agregar mas
+>
+> Se utilizó Copilot AI para este proyecto, el código es 15% Copilot AI ya que se utilizo para el menú y optimización, y 85% Creado por mi, osea comandos, manager y clases echas por mi
 
 > [!IMPORTANT]
 > Necesitas tener la core hcf puesta porque sino no se veran los prefix en el chat
