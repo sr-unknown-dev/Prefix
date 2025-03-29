@@ -4,6 +4,9 @@
 > Para modificar los prefix sigue esta ruta "src\unknown\prefix\manager\PrefixManager"
 > Aqui podras editar los prefix que hay, tambien si lo gustas podras agregar mas
 
+> [!IMPORTANT]
+> Necesitas tener la core hcf puesta porque sino no se veran los prefix en el chat
+
 ## Description
 The Prefix Plugin allows players to set custom prefixes in the game. Players can choose from a predefined list of tags representing countries, PvP ranks, player states, and funny memes.
 
@@ -14,7 +17,9 @@ The Prefix Plugin allows players to set custom prefixes in the game. Players can
 - Event listeners to update player display names and chat messages with prefixes.
 
 ## Commands
-- `/setprefix <prefix>`: Set your prefix. Requires `prefix.admin` permission.
+- `/prefix setprefix <prefix> <player>`: Set your prefix or another player's prefix. Requires `prefix.admin` permission.
+- `/prefix removeprefix <prefix>`: Remove your prefix or another player's prefix. Requires `prefix.admin` permission.
+- `/prefix list`: See list of prefixes. Requires `prefix.admin` permission.
 
 ## Permissions
 - `prefix.admin`: Allows the player to use the `/setprefix` command.

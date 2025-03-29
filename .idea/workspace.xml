@@ -5,194 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43870ad-565b-462d-ad5f-14326a1fd3e8" name="Changes" comment="Add ListPrefix and Prefixs commands; refactor event handling and command registration">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/BaseCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/BaseSubCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/IRunnable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/PacketHooker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/BaseArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/BlockPositionArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/BooleanArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/FloatArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/IntegerArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/RawStringArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/StringEnumArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/TextArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/args/Vector3Argument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/constraint/BaseConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/constraint/ConsoleRequiredConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/constraint/InGameRequiredConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/exception/ArgumentOrderException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/exception/CommandoException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/exception/HookAlreadyRegistered.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/exception/InvalidErrorCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/store/SoftEnumStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/traits/ArgumentableTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/Commando/traits/IArgumentable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/DiscordWebhookAPI/Embed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/DiscordWebhookAPI/Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/DiscordWebhookAPI/Webhook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/CortexPE/DiscordWebhookAPI/task/DiscordWebhookSendTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/command/PrefixsCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/command/subcommands/ListPrefixSubCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/.poggit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/database/mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/database/sqlite.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/languages/en_US.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/languages/es_MX.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/languages/ru_RU.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/resources/ranks.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/EventListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/RankSystem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/RankSystemCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/args/RankArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/args/TimeArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/CreateCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/CreditsCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/DeleteCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/EditCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/HelpCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/ListCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/ManageCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/PermissionsCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/RankInfoCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/RemovePermissionCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/RemoveRankCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/SetPermissionCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/SetRankCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/command/subcommands/UserInfoCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/event/UserPermissionRemoveEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/event/UserPermissionSetEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/event/UserRankExpireEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/event/UserRankRemoveEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/event/UserRankSetEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/ConfirmationForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/FormManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/InsetTextForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/InsetTimeForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/ManageForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/RankEditorForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/RankInfoForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/RanksManageForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/SelectRankForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/UserInfoForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/form/UserManageForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/BaseCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/BaseSubCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/IRunnable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/PacketHooker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/BaseArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/BlockPositionArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/BooleanArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/FloatArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/IntegerArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/RawStringArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/StringEnumArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/TextArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/args/Vector3Argument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/constraint/BaseConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/constraint/ConsoleRequiredConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/constraint/InGameRequiredConstraint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/exception/ArgumentOrderException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/exception/CommandoException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/exception/HookAlreadyRegistered.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/exception/InvalidErrorCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/SimplePacketHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/interceptor/IPacketInterceptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/interceptor/PacketInterceptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/interceptor/PacketInterceptorListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/monitor/IPacketMonitor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/monitor/PacketMonitor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/monitor/PacketMonitorListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/libs/muqsit/simplepackethandler/utils/Utils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/store/SoftEnumStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/traits/ArgumentableTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/CortexPE/Commando/traits/IArgumentable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/IvanCraft623/languages/Language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/IvanCraft623/languages/Translator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/JackMD/ConfigUpdater/ConfigUpdater.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/JackMD/UpdateNotifier/UpdateNotifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/JackMD/UpdateNotifier/task/UpdateNotifyTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/jojoe77777/FormAPI/CustomForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/jojoe77777/FormAPI/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/jojoe77777/FormAPI/FormAPI.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/jojoe77777/FormAPI/ModalForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/jojoe77777/FormAPI/SimpleForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/ConfigException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/DataConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/ExtensionMissingException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/GenericStatement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/SqlDialect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/SqlError.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/SqlResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/SqlThread.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/base/DataConnectorImpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/base/QueryRecvQueue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/base/QuerySendQueue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/base/QueueShutdownException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/base/SqlSlaveThread.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/base/SqlThreadPool.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/generic/GenericStatementFileParseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/generic/GenericStatementFileParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/generic/GenericStatementImpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/generic/GenericVariable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/generic/MysqlStatementImpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/generic/SqliteStatementImpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libasynql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/Await.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/AwaitChild.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/AwaitException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/Channel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/EmptyChannelState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/GeneratorUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/InterruptException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/Loading.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/Mutex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/PromiseState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/PubSub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/RaceLostException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/ReceivingChannelState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/SendingChannelState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/Traverser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/libs/SOFe/AwaitGenerator/UnawaitedCallbackException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/mysqli/MysqlColumnInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/mysqli/MysqlCredentials.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/mysqli/MysqlFlags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/mysqli/MysqlSslCredentials.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/mysqli/MysqlTypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/mysqli/MysqliThread.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/result/SqlChangeResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/result/SqlColumnInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/result/SqlInsertResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/result/SqlSelectResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/libs/poggit/libasynql/sqlite3/Sqlite3Thread.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/migrator/LegacyRankSystem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/migrator/Migrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/migrator/MigratorManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/migrator/PurePerms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/provider/Provider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/provider/UserData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/provider/libasynql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/rank/Rank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/rank/RankManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/session/RankWrapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/session/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/session/SessionChatFormatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/session/SessionManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/tag/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/tag/TagManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/task/UpdateTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RankSystem/src/IvanCraft623/RankSystem/utils/Utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prefix/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Prefix/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prefix/src/unknown/prefix/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/Loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prefix/src/unknown/prefix/command/PrefixCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/command/PrefixCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prefix/src/unknown/prefix/events/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/events/Events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prefix/src/unknown/prefix/manager/PrefixManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/manager/PrefixManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +88,7 @@
       <workItem from="1743224092406" duration="1794000" />
       <workItem from="1743226325923" duration="76000" />
       <workItem from="1743227155838" duration="154000" />
-      <workItem from="1743227452031" duration="10867000" />
+      <workItem from="1743227452031" duration="11189000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of inventory menu system with various builders and network translators">
       <option name="closed" value="true" />
@@ -317,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743268265792</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add ListPrefix and Prefixs commands; refactor event handling and command registration">
+      <option name="closed" value="true" />
+      <created>1743274168790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743274168790</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

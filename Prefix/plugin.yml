@@ -3,6 +3,9 @@ author: Sr_Unknown
 version: 1.2.4
 main: unknown\prefix\Loader
 api: 5.0.0
+depend:
+  - RankSystem
+  - HCF CORE
 website: https://portafolio-pink-theta.vercel.app/
 
 permissions:
