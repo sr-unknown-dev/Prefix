@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d43870ad-565b-462d-ad5f-14326a1fd3e8" name="Changes" comment="Update: #1">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Prefix.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/InvMenu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/InvMenuEventHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/InvMenuHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/inventory/InvMenuInventory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/inventory/SharedInvMenuSynchronizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/inventory/SharedInventoryNotifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/inventory/SharedInventorySynchronizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/InvMenuInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/PlayerManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/PlayerSession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/network/NetworkStackLatencyEntry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/network/PlayerNetwork.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/network/handler/ClosurePlayerNetworkHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/network/handler/PlayerNetworkHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/session/network/handler/PlayerNetworkHandlerRegistry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/transaction/DeterministicInvMenuTransaction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/transaction/InvMenuTransaction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/transaction/InvMenuTransactionResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/transaction/SimpleInvMenuTransaction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/ActorFixedInvMenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/BlockActorFixedInvMenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/BlockFixedInvMenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/DoublePairableBlockActorFixedInvMenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/FixedInvMenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/InvMenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/InvMenuTypeIds.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/InvMenuTypeRegistry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/ActorInvMenuGraphic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/BlockActorInvMenuGraphic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/BlockInvMenuGraphic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/InvMenuGraphic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/MultiBlockInvMenuGraphic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/PositionedInvMenuGraphic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/network/ActorInvMenuGraphicNetworkTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/network/BlockInvMenuGraphicNetworkTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/network/InvMenuGraphicNetworkTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/network/MultiInvMenuGraphicNetworkTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/graphic/network/WindowTypeInvMenuGraphicNetworkTranslator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/InvMenuTypeBuilders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/InvMenuTypeHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/ActorFixedInvMenuTypeBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/ActorInvMenuTypeBuilderTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/AnimationDurationInvMenuTypeBuilderTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/BlockActorFixedInvMenuTypeBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/BlockFixedInvMenuTypeBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/BlockInvMenuTypeBuilderTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/DoublePairableBlockActorFixedInvMenuTypeBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/FixedInvMenuTypeBuilderTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/GraphicNetworkTranslatableInvMenuTypeBuilderTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/invmenu/type/util/builder/InvMenuTypeBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler-2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/SimplePacketHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/interceptor/IPacketInterceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/interceptor/PacketInterceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/interceptor/PacketInterceptorListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/monitor/IPacketMonitor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/monitor/PacketMonitor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/monitor/PacketMonitorListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/simplepackethandler/utils/Utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/event/TebexEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/event/TebexExecuteOfflineCommandEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/event/TebexExecuteOnlineCommandEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/PmmpTebexLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/TebexApiUtils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/TebexHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/ThreadedTebexConnection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/command/RegisteredTebexCommandExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/command/TebexCommandSender.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/command/UnregisteredTebexCommandExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/command/utils/ClosureCommandExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/command/utils/TebexSubCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/TebexDueCommandsHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/TebexDueOfflineCommandsHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/TebexLazyDueCommandsListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/playerlist/TebexDuePlayerHolder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/playerlist/TebexDuePlayerList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/playerlist/TebexDuePlayerListListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/playerlist/indexer/NameBasedPlayerIndexer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/playerlist/indexer/PlayerIndexer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/playerlist/indexer/XuidBasedPlayerIndexer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/session/DelayedOnlineCommandHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/handler/due/session/TebexPlayerSession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/thread/TebexThread.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/thread/TebexThreadPool.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/utils/TypeValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/muqsit/tebex/utils/TypedConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/command/PrefixMenuCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/command/RemovePrefixCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/command/SetPrefixCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/command/ViewPrefixCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/events/Events.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/manager/PrefixManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unknown/prefix/menu/PrefixMenu.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ec32cc63-30bd-4477-a935-639812a7b03f" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe">
+    <include_path>
+      <path value="$USER_HOME$/Documents/src" />
+      <path value="$USER_HOME$/Documents/PocketMine-MP-5.11.0" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uvjqZQFAsDJzCC0zYSeFrbUapk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conej/Desktop/pls/Prefix&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.25659.45" />
+        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.25659.45" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d43870ad-565b-462d-ad5f-14326a1fd3e8" name="Changes" comment="" />
+      <created>1743136135209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743136135209</updated>
+      <workItem from="1743136138393" duration="6959000" />
+      <workItem from="1743177873184" duration="9424000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add initial implementation of inventory menu system with various builders and network translators">
+      <option name="closed" value="true" />
+      <created>1743143255727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743143255728</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update README.md for clarity and formatting improvements">
+      <option name="closed" value="true" />
+      <created>1743178618741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743178618741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial implementation of inventory menu system with various builders and network translators" />
+    <MESSAGE value="update README.md for clarity and formatting improvements" />
+    <MESSAGE value="Update: #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: #1" />
+  </component>
+</project>

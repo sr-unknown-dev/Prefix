@@ -1,0 +1,76 @@
+---
+#Welcome to RankSystem config! :D
+#This plugin was made by IvanCraft623
+
+#Do not edit this value!
+#Only for internal use.
+config-version: 2
+
+#Default language used
+default-language: en_US
+
+#Notifying the user when his rank has expired
+rank-expire-notification: true
+
+#Automatically migrate other plugins data
+auto-migrator: true
+
+#Provider where player information is stored
+database:
+  # The database type. "sqlite" and "mysql" are supported.
+  type: sqlite
+
+  # Edit these settings only if you choose "sqlite".
+  sqlite:
+    # The file name of the database in the plugin data folder.
+    # You can also put an absolute path here.
+    file: database/RankSystem.db
+  # Edit these settings only if you choose "mysql".
+  mysql:
+    host: 127.0.0.1
+    # Avoid using the "root" user for security reasons.
+    username: root
+    password: ""
+    schema: your_schema
+  # The maximum number of simultaneous SQL queries
+  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.
+  worker-limit: 1
+
+#Players will have this rank by default
+Default_Rank: Guest
+
+#All players will have these permissions
+Global_Perms:
+  - example.perm
+
+#Ranks hierarchy
+#It is advisable to put all the ranks, otherwise the non-established ranks will be ordered in the lowest position
+Hierarchy:
+  - Owner #Highest rank
+  - Admin
+  - Guest #Lower rank
+
+#Tags:
+# Tags can be used both in nametag and chat. (These are not related to ScoreHud)
+# Defaults are:
+# {name} - The user's name
+# {nametag_ranks_prefix} - Set of all rank prefixes in nametag
+# {nametag_highest-rank_prefix} - Highest rank prefix in nametag
+# {nametag_name-color} - The color of the name in nametag
+# {chat_ranks_prefix} - Set of all rank prefixes in chat
+# {chat_highest-rank_prefix} - Highest rank prefix in chat
+# {chat_name-color} - The color of the name in chat
+# {chat_format} - Stuff that goes before the message (Can be a colon)
+
+#Other plugins can register custom tags
+
+#Configure users's nametag
+nametag:
+  enabled: true
+  format: "{nametag_ranks_prefix}{nametag_name-color}{name}"
+
+#Configure users's chat
+chat:
+  enabled: true
+  format: "{chat_ranks_prefix}{chat_name-color}{name}{chat_format}{message}"
+...
