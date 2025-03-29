@@ -11,7 +11,7 @@ use unknown\prefix\manager\PrefixManager;
 use unknown\prefix\command\SetPrefixCommand;
 use unknown\prefix\command\RemovePrefixCommand;
 use unknown\prefix\command\ViewPrefixCommand;
-use unknown\prefix\command\PrefixMenuCommand;
+use unknown\prefix\command\PrefixCommand;
 use unknown\prefix\events\Events;
 
 class Loader extends PluginBase
@@ -33,10 +33,7 @@ class Loader extends PluginBase
         }
         $this->getServer()->getPluginManager()->registerEvents(new Events(), $this);
         $this->getServer()->getCommandMap()->registerAll("prefix", [
-            new SetPrefixCommand(),
-            new RemovePrefixCommand(),
-            new ViewPrefixCommand(),
-            new PrefixMenuCommand()
+            new PrefixCommand()
         ]);
     }
 

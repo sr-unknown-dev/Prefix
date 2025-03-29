@@ -10,17 +10,7 @@ use unknown\prefix\Loader;
 
 class Events implements Listener
 {
-    public function onPlayerJoin(PlayerJoinEvent $event): void
-    {
-        $player = $event->getPlayer();
-        $prefixManager = Loader::getInstance()->getPrefixManager();
-        $tag = $prefixManager->getTag($player->getName());
-        if ($tag !== null) {
-            $player->setDisplayName($tag->getFormat() . " " . $player->getName());
-        }
-    }
-
-    /*public function onPlayerChat(PlayerChatEvent $event): void
+    public function onPlayerChat(PlayerChatEvent $event): void
     {
         $player = $event->getPlayer();
         $prefixManager = Loader::getInstance()->getPrefixManager();
@@ -30,5 +20,5 @@ class Events implements Listener
         } else {
             $event->setFormatter(new LegacyRawChatFormatter($player->getName() . ": " . $event->getMessage()));
         }
-    }*/
+    }
 }

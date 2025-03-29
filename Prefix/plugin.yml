@@ -1,9 +1,9 @@
-name: prefix
+name: PrefixSystem
 author: Sr_Unknown
-version: 1.0.0
+version: 1.2.4
 main: unknown\prefix\Loader
 api: 5.0.0
-prefix: Prefix
+website: https://portafolio-pink-theta.vercel.app/
 
 permissions:
   prefix.admin:
