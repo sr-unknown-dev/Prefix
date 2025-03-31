@@ -20,10 +20,12 @@ https://www.youtube.com/watch?v=iWlKI3OnBEk
 - Commands to set and manage prefixes.
 - Event listeners to update player display names and chat messages with prefixes.
 
-## Commands
+## Commands Admin
 - `/prefix setprefix <prefix> <player>`: Set your prefix or another player's prefix. Requires `prefix.admin` permission.
 - `/prefix removeprefix <prefix>`: Remove your prefix or another player's prefix. Requires `prefix.admin` permission.
 - `/prefix list`: See list of prefixes. Requires `prefix.admin` permission.
+- /prefix setnpc`: Add npc from the prefix. Requires `prefix.admin` permission.
+- /prefix removenpc`: Remove npc from the prefix. Requires `prefix.admin` permission.
 
 ## Permissions
 - `prefix.admin`: Allows the player to use the `/setprefix` command.

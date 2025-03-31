@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d43870ad-565b-462d-ad5f-14326a1fd3e8" name="Changes" comment="Update plugin.yml and README.md: add dependencies and clarify prefix usage" />
+    <list default="true" id="d43870ad-565b-462d-ad5f-14326a1fd3e8" name="Changes" comment="Update plugin.yml and README.md: add dependencies and clarify prefix usage">
+      <change afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/command/subcommands/RemoveNpcPrefixSubCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/command/subcommands/SetNpcPrefixSubCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix/src/unknown/prefix/npc/PrefixNPC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +44,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/conej/Desktop/pls/Prefix&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conej/Documents/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -85,7 +95,11 @@
       <workItem from="1743224092406" duration="1794000" />
       <workItem from="1743226325923" duration="76000" />
       <workItem from="1743227155838" duration="154000" />
-      <workItem from="1743227452031" duration="12378000" />
+      <workItem from="1743227452031" duration="12897000" />
+      <workItem from="1743355043442" duration="981000" />
+      <workItem from="1743365999896" duration="79000" />
+      <workItem from="1743366110449" duration="80000" />
+      <workItem from="1743387593960" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of inventory menu system with various builders and network translators">
       <option name="closed" value="true" />
@@ -151,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743275407954</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update plugin.yml and README.md: add dependencies and clarify prefix usage">
+      <option name="closed" value="true" />
+      <created>1743275660231</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743275660231</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update plugin.yml and README.md: add dependencies and clarify prefix usage">
+      <option name="closed" value="true" />
+      <created>1743275759224</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743275759224</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
