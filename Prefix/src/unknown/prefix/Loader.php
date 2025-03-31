@@ -24,7 +24,7 @@ class Loader extends PluginBase
     public function onLoad(): void
     {
         self::setInstance($this);
-        $this->prefixManager = new PrefixManager(); // Inicializar aquí
+        $this->prefixManager = new PrefixManager(); // Inicializar aquí zzzzzz Dormí malo
     }
 
     public function onEnable(): void

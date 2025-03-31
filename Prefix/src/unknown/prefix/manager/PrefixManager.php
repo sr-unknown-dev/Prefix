@@ -14,7 +14,7 @@ class PrefixManager
     public array $prefixes = [];
     
     public array $tags = [
-        // Países
+        # Países
         "MEX" => "§8[ §l§a|§f|§4| §r§8]§r",
         "USA" => "§8[ §l§f|§b|§4| §r§8]§r",
         "BRA" => "§8[ §l§2|§f|§e| §r§8]§r",
@@ -23,7 +23,7 @@ class PrefixManager
         "PER" => "§8[ §l§r|§w|§r| §r§8]§r",
         "ESP" => "§8[ §l§e|§r|§r| §r§8]§r",
 
-        // Rangos o estilos PvP
+        # Rangos o estilos PvP
         "CHEATER" => "§8[ §cCheater §r§8]§r",
         "MONEY" => "§8[ §a$$$ §r§8]§r",
         "KILLER" => "§8[ §cKiller §r§8]§r",
@@ -38,7 +38,7 @@ class PrefixManager
         "ASSASSIN" => "§8[ §8Assassin §r§8]§r",
         "GHOST" => "§8[ §7Ghost §r§8]§r",
 
-        // Estado del jugador
+        # Estado del jugador
         "RICH" => "§8[ §6Rich §r§8]§r",
         "POOR" => "§8[ §7Poor §r§8]§r",
         "WARRIOR" => "§8[ §cWarrior §r§8]§r",
@@ -46,7 +46,7 @@ class PrefixManager
         "QUEEN" => "§8[ §dQueen §r§8]§r",
         "RANDOM" => "§8[ §7Random §r§8]§r",
 
-        // Memes o cosas graciosas
+        # Memes o cosas graciosas
         "LAGGER" => "§8[ §8Lagger §r§8]§r",
         "BOT" => "§8[ §7Bot §r§8]§r",
         "EZ" => "§8[ §bEZ §r§8]§r",

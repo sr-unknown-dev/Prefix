@@ -16,7 +16,7 @@ use unknown\prefix\Tag;
 
 class PrefixMenu
 {
-    private const ITEMS_PER_PAGE = 28; // Reducido para ajustarse al nuevo diseño
+    private const ITEMS_PER_PAGE = 28; // Reducido para el nuevo diseño
 
     public static function open(Player $player, int $page = 1): void
     {
@@ -31,22 +31,21 @@ class PrefixMenu
         $menu = InvMenu::create(InvMenu::TYPE_DOUBLE_CHEST);
         $menu->setName(TextFormat::GREEN . "Prefix Menu - Page $page/$totalPages");
         
-        // Llenar el inventario con vidrio negro en las orillas
+        // Llenar con vidrio las orillas
         $borderGlass = VanillaBlocks::STAINED_GLASS_PANE()->setColor(DyeColor::BLACK)->asItem()->setCustomName(" ");
         
-        // Llenar la primera y última fila completamente
+        // Llenar la primera y última fila
         for ($i = 0; $i < 9; $i++) {
             $menu->getInventory()->setItem($i, $borderGlass);
             $menu->getInventory()->setItem(45 + $i, $borderGlass);
         }
         
-        // Llenar la primera y última columna de cada fila intermedia
         for ($row = 1; $row < 5; $row++) {
             $menu->getInventory()->setItem($row * 9, $borderGlass);
             $menu->getInventory()->setItem($row * 9 + 8, $borderGlass);
         }
         
-        // Ahora colocamos los prefijos en el área central
+        // Prefix
         if (isset($tags[$page - 1])) {
             $tagIndex = 0;
             for ($row = 1; $row < 5; $row++) {
@@ -66,8 +65,8 @@ class PrefixMenu
                 }
             }
         }
-
-        // Add navigation items
+        
+        #nave
         if ($page > 1) {
             $prevItem = VanillaItems::ARROW();
             $prevItem->setCustomName(TextFormat::YELLOW . "Previous Page");
