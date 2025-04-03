@@ -12,7 +12,7 @@ class PrefixManager
 {
     public Config $config;
     public array $prefixes = [];
-    
+
     public array $tags = [
         # Países
         "MEX" => "§8[ §l§a|§f|§4| §r§8]§r",
@@ -61,14 +61,7 @@ class PrefixManager
 
     public function load(): void
     {
-        $data = $this->config->getAll();
-        if (isset($data["players"])) {
-            foreach ($data["players"] as $playerName => $playerData) {
-                if (isset($playerData["prefix"])) {
-                    $this->prefixes[$playerName] = $playerData["prefix"];
-                }
-            }
-        }
+        $this->prefixes = $this->config->get("prefixes", []);
     }
 
     public function setTag(Player $player, string $tagName): void
@@ -81,49 +74,43 @@ class PrefixManager
 
     public function removeTag(Player $player): void
     {
-        $playerName = $player->getName();
-        if (isset($this->prefixes[$playerName])) {
-            unset($this->prefixes[$playerName]);
-            $this->save();
-        }
+        unset($this->prefixes[$player->getName()]);
+        $this->save();
     }
 
-    public function getTag(string $playerName): ?Tag
+
+    public
+    function getTag(string $playerName): ?Tag
     {
-        if (isset($this->prefixes[$playerName])) {
-            $tagName = $this->prefixes[$playerName];
-            return new Tag($tagName);
-        }
-        return null;
+        return isset($this->prefixes[$playerName]) ? $this->prefixes[$playerName] : null;
     }
 
-    public function getTagFormat(string $tagName)
+    public
+    function getTagFormat(string $tagName)
     {
         return $this->tags[$tagName] ?? null;
     }
 
-    public function getTagName(string $playerName): ?string
+    public
+    function getTagName(string $playerName): ?string
     {
         return $this->prefixes[$playerName] ?? null;
     }
 
-    public function getTags(): array
+    public
+    function getTags(): array
     {
+        $result = [];
         foreach ($this->tags as $tagName => $tagFormat) {
-            return $tagName . ' format: ' . $tagFormat;
+            $result[] = "{$tagName}  format:  {$tagFormat}";
         }
-        return "No exist prefixs";
+        return empty($result) ? ["No tags existed"] : $result;
     }
 
-    public function save(): void
+    public
+    function save(): void
     {
-        $data = ["players" => []];
-        foreach ($this->prefixes as $playerName => $tagName) {
-            $data["players"][$playerName] = [
-                "prefix" => $tagName
-            ];
-        }
-        $this->config->setAll($data);
+        $this->config->setAll("player", $this->prefixes);
         $this->config->save();
     }
 }

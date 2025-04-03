@@ -29,7 +29,9 @@ class ListPrefixSubCommand extends BaseSubCommand
 
         if ($sender instanceof Player)
         {
-            $sender->sendMessage(TextFormat::colorize(Loader::getInstance()->getPrefixManager()->getTags()));
+            foreach (Loader::getInstance()->getPrefixManager()->getTags() as $tag) {
+                $sender->sendMessage(TextFormat::colorize($tag));
+            }
         }
     }
 

@@ -29,7 +29,7 @@ class Loader extends PluginBase
     public function onLoad(): void
     {
         self::setInstance($this);
-        $this->prefixManager = new PrefixManager(); // Inicializar aquí zzzzzz Dormí malo
+        $this->prefixManager = new PrefixManager();
     }
 
     public function onEnable(): void
@@ -37,7 +37,7 @@ class Loader extends PluginBase
         if (!InvMenuHandler::isRegistered()) {
             InvMenuHandler::register($this);
         }
-        $this->getServer()->getPluginManager()->registerEvents(new Events(), $this);
+
         $this->getServer()->getCommandMap()->registerAll("prefixsystem", [
             new PrefixCommand(),
             new PrefixsCommand()
